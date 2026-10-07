@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+  var nama = "Andi";
+  var nilaiTugas = prompt ("nilaiTugas");
+  var nilaiUTS = prompt ("nilaiUTS");
+  var nilaiUAS = prompt (nilaiAkhir);
+  var nilaiAkhir = (nilaiTugas * 0.3) + (nilaiUTS * 0.3) + (nilaiUAS * 0.4);
+  var status = "TIDAK LULUS";
+  if (nilaiAkhir >= 75) {
+    status = "LULUS";
+  }
+
+  console.log("Nama        : " + nama);
+  console.log("Nilai Akhir : " + nilaiAkhir);
+  console.log("Status      : " + status);
+  document.write("<h2>Hasil Penilaian</h2>");
+  document.write("<p>Nama : " + nama + "</p>");
+  document.write("<p>Nilai Akhir : " + nilaiAkhir + "</p>");
+  document.write("<p>Status : " + status + "</p>");
+</script>
+
+</body>
+</html>
